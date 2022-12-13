@@ -1,0 +1,7 @@
+
+<h3>cart-page</h3>
+<ul>
+    <li *ngFor="let cartItem of cart.items">
+        <img [src]="cartItem.food.imageUrl" [alt]="cartItem.food.name">
+    </li>
+</ul>
